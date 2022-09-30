@@ -23,9 +23,6 @@
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   },
-  "engines": {
-    "node": "16.x"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DronetDevDesign/text-edit-me.git"
@@ -33,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/DronetDevDesign/text-edit-me/issues"
   },
-  "homepage": "https://github.com/DronetDevDesign/text-edit-me#readme"
+  "homepage": "https://github.com/DronetDevDesign/text-edit-me#readme",
+  "engines": {
+    "node": "16.x"
+  }
 }

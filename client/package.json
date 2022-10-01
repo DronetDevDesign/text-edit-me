@@ -6,7 +6,7 @@
     "start": "webpack --watch",
     "heroku-prebuild": "npm install --dev"
   },
-  "author": "2U",
+  "author": "Ron Dronet",
   "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -22,9 +22,11 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-pwa-manifest": "^4.3.0",
+    "workbox-cacheable-response": "^6.5.4",
     "workbox-webpack-plugin": "^6.2.4"
   },
   "dependencies": {
+    "autoprefixer": "10.4.5",
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
   }

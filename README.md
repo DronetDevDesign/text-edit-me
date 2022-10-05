@@ -1,4 +1,4 @@
-# text-edit-me
+# Text Edit Me
 ## A fun text edit app that can be accessed anywhere!
 
 ## Purpose:

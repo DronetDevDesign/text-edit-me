@@ -1,29 +1,78 @@
 # text-edit-me
 ## A fun text edit app that can be accessed anywhere!
 
+## Purpose:
 
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client-server folder structure
-WHEN I run `npm start` from the root directory
-THEN I find that my application should start up the back end and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB database
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using Workbox
-WHEN I register a service worker
-THEN I should have my static assets precached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+An easy to use text editor that stores snippets of code to the users computer. This project is incomplete and has issues that could not be resolved. See screenshot below.
+
+## Heroku Deployed Website Link:
+
+## https://stormy-sierra-57110.herokuapp.com/
+
+<br>
+
+## **Table of contents:**
+
+- [Installation](#installation)
+- [Start](#start)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Questions](#questions)
+
+<br>
+<div align="left">
+    <img src="./client/src/images/text-edit-me-screenshot.jpg" width="800px" /> 
+</div>
+<br>
+
+<br>
+
+## This Full-stack App Was Created Using:
+
+- JavaScript
+- NodeJS
+- Express
+- Concurrently
+- Babel
+- Webpack
+- Heroku
+- GitHub
+
+<br>
+
+## Installation:
+
+### To install all packages use this command in the the terminal:
+
+`npm i`
+
+<br>
+
+## Start:
+
+### To start use this command in the the terminal: 
+
+`npm start`
+
+<br>
+
+## Usage:
+
+### The respository can be cloned and placed in a folder remotely.
+
+<br>
+
+## Contribute:
+
+### Please contact me regarding contributing to this repository. All additions must be approved.
+
+<br>
+
+## Questions?
+
+### If you have any questions here's how to contact me:
+
+- Username: DronetDevDesign
+- Repository: https://github.com/DronetDevDesign
+- Email: ron@DronetDevDesign.com
+

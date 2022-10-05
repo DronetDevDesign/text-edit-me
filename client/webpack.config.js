@@ -8,7 +8,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
-    mode: 'development',
+    mode: 'production',
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js'
@@ -19,8 +19,8 @@ module.exports = () => {
     },
     plugins: [
       new InjectManifest({
-        swSrc: './src/js/sw.js',
-        swDest: 'service-worker.js',
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
       new HtmlWebpackPlugin({
         template: './index.html',
@@ -32,8 +32,10 @@ module.exports = () => {
         description: 'A fun text edit app that can be accessed anywhere!',
         background_color: '#272822',
         theme_color: '#31a9e1',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
+        inject: true,
+        // fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -63,10 +65,14 @@ module.exports = () => {
         },
         {
           test: /\.m?js$/,
-          exclude: /(node_modules|bower_components)/,
+          exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
             options: {
+              plugins: [
+                '@babel/plugin-proposal-object-rest-spread',
+                '@babel/transform-runtime'
+              ],
               presets: ['@babel/preset-env'],
             },
           },
